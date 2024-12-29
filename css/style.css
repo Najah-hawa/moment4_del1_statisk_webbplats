@@ -80,7 +80,7 @@ main {
 }
 
 .car-list {
-    display: row;
+    display: inline-block;
     width: 800px; 
 }
 .car-item {
