@@ -112,6 +112,7 @@ main {
 .car-item p {
     color: #777;
     font-size: 1em;
+    margin-bottom: 20px;
 }
 
 /*Style för div 2 med namn commer-snart-list*/
@@ -120,6 +121,7 @@ main {
     text-align: center;
     color: #000000;
     font-size: 1.3em;
+    align-content: center;
     
     
 }
@@ -150,7 +152,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-bottom: 15px;
 }
 .commer1 img:hover {
     zoom: 1.2;
@@ -326,7 +328,22 @@ footer ul li a:hover {
   }
   
 
+.btn-default{
+    color:black;
+    margin: 40px;
+    border-style:double;
+    font-size: 1.1em;
+}
+.btn-default:hover{
+   background-color: #40805ccb;
+}
 
+.bil_info_p{
+text-justify:auto; 
+width:100%; 
+left:0; 
+text-align:justify
+}
 
 /* Media Queries for responsiveness */
 @media (max-width: 1160px) {
