@@ -8,20 +8,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <!-- Header -->
-    <header>
-          <div id="head"> 
-            <img src="Bilder/logotyp.png" alt=" Logo">
-            <h1> SEE Bilförsäljning AB</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Hem</a></li>
-                    <li><a href="om.html">Om oss</a></li>
-                    <li><a href="contact.html">Kontakt</a></li>
-                </ul>
-            </nav>
+    <header id="header">
+        <div id="logo-div">
+            <img id="logo" src="Bilder/logotyp.png" alt=" ett logotyp för företaget SEE" onclick="toggleNav()">
+            <h1 id="SEE_namn">SEE Bilförsäljning AB</h1>
         </div>
+        <nav id="nav">
+            <ul id="mylinks">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="lager.html">Lager</a></li>
+                <li><a href="om.html">Om Oss</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main content -->
@@ -78,6 +77,6 @@
             <p>&copy; 2024 Bilförsäljning AB. Alla rättigheter reserverade.</p>
         
     </footer>
-
+    <script src="main.js"></script>
 </body>
 </html>
