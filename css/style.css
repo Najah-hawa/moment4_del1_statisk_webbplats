@@ -378,6 +378,41 @@ footer ul li a:hover {
     text-align:justify
 }
 
+
+
+/* Ny styling som bara rör vanliga textsidor som AI-Verktyg */
+.page-content-box {
+    width: 100%;
+    max-width: 900px;     /* Förhindrar att textraderna blir för breda */
+    margin: 30px auto;    /* Centrerar boxen och ger luft uppe/nere */
+    padding: 40px;        /* Ger ordentligt med luft mellan texten och ramen! */
+    box-sizing: border-box; /* Säkerställer att padding räknas in i bredden */
+}
+
+/* Fixa radavstånd och luft i listan på bilden */
+.page-content-box ul {
+    padding-left: 25px;   /* Flyttar in punkterna från kanten */
+    margin-top: 15px;
+}
+
+.page-content-box li {
+    margin-bottom: 15px;  /* Luft mellan varje punkt */
+    line-height: 1.7;     /* Mer utrymme mellan textraderna */
+}
+
+.page-content-box h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.kontakt_info {
+    background-color: #b9d3c451;
+    border-style:groove;
+}
+.kontakt_info h4 {
+    margin: 15px;
+}
+
 /* Media Queries for responsivenes */
 
 @media (max-width: 800px) { /* Responsiv design för meny i mindre skärmar */
