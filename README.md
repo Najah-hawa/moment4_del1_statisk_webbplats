@@ -6,7 +6,7 @@ Detta repository innehåller den statiska webbplatsen för det fiktiva företage
 Jag skapade ursprungligen denna uppgift när jag läste kursen tidigare, men eftersom jag inte blev klar med moment 2 förra året har jag nu gått igenom och justerat webbplatsen så att den uppfyller kraven för del 1 och ger en bättre grund inför WordPress-arbetet. Samtliga sidor är kontrollerade och validerar utan fel.
 
 ## Publicerad webbplats
-- **Live-länk:** `[LÄNK_TILL_PUBLICERAD_WEBBPLATS]`
+- **Live-länk:** `https://studenter.miun.se/~naha2204/DT209G/moment4-del1/index.html`
 
 ## Sidstruktur och innehåll
 - `index.html` – Startsida med utvalda bilar, kommande bilar och presentation av företaget.
